@@ -399,6 +399,115 @@ h6 {
   letter-spacing: 0.64px;
 }
 
+/* doctors section start */
+.doctors {
+  width: 100%;
+  padding: 128px 0 144px;
+}
+.doctors .title {
+  padding: 0 0 88px;
+}
+.doctors .inner-doctors .doctorSlide .fa {
+  font-size: 28px;
+  background: #18181b0d;
+  padding: 12px 10px;
+}
+.doctors .inner-doctors .doctorSlide .fa:hover {
+  cursor: pointer;
+  background: #18181b1d;
+}
+.doctors .inner-doctors .doctorSlide .fa-angle-left {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0%;
+}
+.doctors .inner-doctors .doctorSlide .fa-angle-right {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 0%;
+}
+.doctors .inner-doctors .doctorSlide .swiper-slide {
+  text-align: center;
+}
+.doctors .inner-doctors .doctorSlide .swiper-slide .profile {
+  text-align: center;
+}
+.doctors .inner-doctors .doctorSlide .swiper-slide h6 {
+  color: #18181b;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+  margin: 32px 0 10px;
+}
+.doctors .inner-doctors .doctorSlide .swiper-slide p {
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin: 0 0 32px;
+}
+.doctors .inner-doctors .doctorSlide .swiper-slide .btn-primary {
+  color: #516eff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  padding: 12px 40px;
+  background: transparent;
+  border: 1px solid #516eff;
+  border-radius: 8px;
+}
+.doctors .inner-doctors .doctorSlide .swiper-slide .btn-primary:hover {
+  color: #fff;
+  background: #516eff;
+}
+
+/* review section start */
+.review {
+  width: 100%;
+  background-color: #516eff;
+  padding: 96px 0;
+}
+.review .inner-review .review-img {
+  text-align: left;
+}
+.review .inner-review .review-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.review .inner-review h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px; /* 166.667% */
+  padding: 16px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin: 16px 0 0;
+}
+.review .inner-review .review-text {
+  margin: 40px 0 48px;
+}
+.review .inner-review .review-text p {
+  width: 90%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px; /* 212.5% */
+  letter-spacing: 0.64px;
+  margin: 16px 0 0;
+}
+.doctors
+  .swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #ffffff40;
+}
+
 /* newsletter section start */
 .newsletter {
   width: 100%;
