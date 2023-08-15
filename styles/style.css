@@ -624,8 +624,8 @@ h6 {
 .footer-top .inner-footerTop .sec-c .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 30px;
 }
 .footer-top .inner-footerTop .sec-c .links ul {
   list-style: none;
